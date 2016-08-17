@@ -35,3 +35,22 @@ print(str(my_set.pop()))
 print(str(my_set))
 
 print("Begin section on set operations.")
+
+setA = set("abcdefg")
+setB = {"b", "d", "g", "h"}
+
+print("set A: " + str(setA))
+print("set B: " + str(setB))
+
+union = setA.union(setB)
+intersection = setA.intersection(setB)
+difference = setA.difference(setB)
+symmetric_difference = setA.symmetric_difference(setB)
+
+print("Union: " + str(union))
+print("Intersection: " + str(intersection))
+print("Difference: " + str(difference))
+print("Symmetric Difference: " + str(symmetric_difference))
+
+print("a in union: " + str("a" in union))
+print("b in difference: " + str("b" in difference))
