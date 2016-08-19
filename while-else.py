@@ -26,3 +26,20 @@ while j < len(myOtherList):
     j += 1
 else:
     print("no element is left to print")
+
+print("begin section 'try-finally'")
+i = 0
+my_list = [1, 2, 3, 4, 5, 6]
+
+while i < len(my_list):
+    try:
+        if my_list[i] == 5:
+            break
+        if my_list[i] % 2 == 0:
+            continue
+        print(my_list[i])
+    finally:
+        i += 1
+else:
+    print("no element is left to print")
+    
