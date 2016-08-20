@@ -14,7 +14,7 @@ print(str("sum of a and b: ") + str(sum))
 print(str("the difference of a and b: ") + str(diff))
 print(str("the product of a and b: ") + str(product))
 print(str("the quotient of a / b: ") + str(quotient))
-print(str("floored quotient? of a // b: ") + str(floored_quotient))
+print(str("'a // b' int result without decimal or remainder: ") + str(floored_quotient))
 print(str("the remainder of a % b: ") + str(remainder))
 
 print(str("the absolute value of b - a: ") + str(abs(b - a)))
