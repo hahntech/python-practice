@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+# push to git: https://github.com/hahntech/python-practice.git
 my_dictionary = {
     "name": "Sebastian",
     "age": 21
