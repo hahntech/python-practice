@@ -38,3 +38,28 @@ print(str(my_dog))
 del my_dog["girlfriend_name"]
 
 print(str(my_dog))
+
+def printKeys(dictionary):
+    result = [k for k in dictionary]
+    return result
+
+def printValues(dictionary):
+    # init an empty list
+    result = []
+    for k in dictionary:
+        # use append method to add each item to the list
+        result.append(dictionary[k])
+    else:
+        return result
+
+print(str(printKeys(my_dog)))
+
+print(str(printValues(my_dog)))
+
+
+
+
+
+
+
+#
