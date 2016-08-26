@@ -25,3 +25,12 @@ print_product(product)
 for i in range(0, 100):
     sell(product)
 print_product(product)
+
+def cloneDictionary(dictionary):
+    # you can also copy an entire dictionary
+    clonedCopy = dictionary.copy()
+    # only first level is copied. If the source dictionary contained
+    # sub/child dicitonaries then only a reference to those child
+    # dictionaries would be copied
+    # !!!! consider that if you make changes to a child dictionary in a
+    # cloned dictionary, the original dictionary is what gets updated!!!!
